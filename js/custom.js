@@ -56,7 +56,12 @@ $(window).ready(function () {
         $('.banner-content.button a .toggle-btn').eq(i).click(function (e) {
             e.preventDefault()
             $('.banner-content.button a .toggle-btn').addClass('active')
-            $('.banner-content.button a .toggle-btn').eq(i).removeClass('active')
+            // $('.banner-content.button a .toggle-btn').eq(i).removeClass('active')
+            if ($('.banner-content.button a .toggle-btn').eq(i).hasClass('fa-pause')) {
+                $('.banner-content.button a .toggle-btn.fa-pause').removeClass('active')
+            } else {
+                $('.banner-content.button a .toggle-btn.fa-play').removeClass('active')
+            }
         })
     })
 

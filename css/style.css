@@ -462,6 +462,10 @@
         width: 80%;
     }
 
+    .home-banner-2 a:hover {
+        text-decoration: none;
+    }
+
     .text-banner-2 {
         display: flex;
         align-items: center;

@@ -523,11 +523,6 @@
         background: #0067B8;
     }
 
-    .home-banner-2 .col-lg-12 {
-        /* padding-right: 0px;
-        padding-left: 0px; */
-    }
-
     .home-banner-2 img {
         width: 80%;
     }
@@ -725,7 +720,7 @@
     }
 
     .home-header .menu-column a {
-        font-size: 13px;
+        font-size: 14.5px;
     }
 
     .home-header a:hover {

@@ -322,8 +322,15 @@
     }
 
     .home-banner img {
-        width: 100%;
-        max-width: 100vw;
+        width: 160% !important;
+    }
+
+    .home-banner img.left-pic {
+        margin-left: 0px;
+    }
+
+    .home-banner img.right-pic {
+        margin-left: -215px !important;
     }
 
     .home-banner .banner-btn {
@@ -988,6 +995,18 @@
     .banner-content.text,
     .banner-content.button {
         display: none;
+    }
+
+    .home-banner img {
+        width: 100% !important;
+    }
+
+    .home-banner img.left-pic {
+        margin-left: 0px !important;
+    }
+
+    .home-banner img.right-pic {
+        margin-left: 0px !important;
     }
 
     /* END BANNER */

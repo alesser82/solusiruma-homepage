@@ -39,7 +39,8 @@ $(window).ready(function () {
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
-        responsiveClass: true
+        autowidth: true,
+        margin: 215
     });
 
     $('.banner-btn-right a, .banner-content.button a .fa-chevron-right').click(function (e) {

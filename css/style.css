@@ -354,17 +354,21 @@
 
     .banner-content.text h5 {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 20px;
         color: #000;
     }
 
     .banner-content.text p {
         color: #000;
+        font-size: 15px;
     }
 
     .banner-content.button {
-        color: #000;
         background: #F2F2F2;
+    }
+
+    .banner-content.button a {
+        color: #000;
     }
 
     .banner-content.button .col-md-12 {
@@ -398,6 +402,7 @@
         padding: 10px 10px;
         background: #000;
         color: #fff;
+        font-size: 15px;
     }
 
     .item-thumbnail {
@@ -656,9 +661,16 @@
 
     /* PRODUCT THUMBNAIL */
 
+    .product-thumbnail,
+    .product-suggestion {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
     .product-thumbnail .col-md-6,
     .product-suggestion .col-md-6 {
-        max-width: 50%;
+        /* width: 50%; */
+        max-width: 47%;
     }
 
     /* END PRODUCT THUMBNAIL */
@@ -981,6 +993,12 @@
     /* END BANNER */
 
     /* PRODUCT THUMBNAIL */
+
+    .product-thumbnail,
+    .product-suggestion {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 
     .product-thumbnail .col-lg-3,
     .product-suggestion .col-lg-3 {
